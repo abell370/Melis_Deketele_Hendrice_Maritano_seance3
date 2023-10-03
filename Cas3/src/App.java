@@ -17,7 +17,7 @@ public class App {
 
         try(Scanner scanner = new Scanner(System.in)){
             String calculate = scanner.nextLine();
-            System.out.println("Result : " + parser.parse(calculate));
+            System.out.println("Result : " + parser.parseClassic(calculate));
         }catch(Exception ex){
             System.out.println(ex);
             System.out.println("Error !");
