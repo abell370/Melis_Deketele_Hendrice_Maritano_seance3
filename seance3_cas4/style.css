@@ -1,0 +1,10 @@
+.nasa-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+.nasa-container img {
+    width: 80%;
+    height: auto;
+    object-fit: contain;
+}
