@@ -6,7 +6,7 @@ import visitor.Visitor;
 
 public class App{
 
-    public static void main(String args[]){
+    public static void main(String[] args) throws Exception {
         Component cpu = new Cpu(50, "Intel", 600);
         Component memory = new Memory(78, 300);
 
