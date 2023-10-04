@@ -4,7 +4,7 @@ import components.Memory;
 import visitor.ComponentVisitor;
 import visitor.Visitor;
 
-public class App{
+public class Cas2{
 
     public static void main(String[] args) throws Exception {
         Component cpu = new Cpu(50, "Intel", 600);

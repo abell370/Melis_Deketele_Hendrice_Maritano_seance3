@@ -1,8 +1,5 @@
 package interpreter;
 
-import java.util.Collections;
-import java.util.LinkedList;
-import java.util.List;
 import java.util.Stack;
 
 import expressions.Expression;
